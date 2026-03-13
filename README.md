@@ -44,7 +44,7 @@ npm run serve
 ## Convenciones del proyecto
 
 - La documentacion vive en la raiz del sitio, no en `/docs`.
-- El build esta preparado para GitHub Project Pages en `/leak-prevention-claude-code-docs/`.
+- El build esta preparado para GitHub Project Pages en `/own-claude-code-docs/`.
 - `sources/` no se publica; se usa para trazabilidad y curacion.
 - No se versionan PDFs ni materiales crudos pesados dentro del repo publicado.
 - El idioma base es espanol. Las fuentes originales pueden permanecer en ingles.
@@ -55,7 +55,7 @@ El archivo [sources/registry.yaml](sources/registry.yaml) centraliza las referen
 
 ## Checklist manual de GitHub
 
-1. Crear el repositorio publico `leak-prevention-claude-code-docs` en GitHub.
+1. Crear el repositorio publico `own-claude-code-docs` en GitHub.
 2. Empujar la rama `main`.
 3. En `Settings > Pages`, elegir `GitHub Actions` como source.
 4. Activar proteccion liviana sobre `main` y exigir que pase `CI`.
@@ -66,7 +66,7 @@ El archivo [sources/registry.yaml](sources/registry.yaml) centraliza las referen
 Con el owner por defecto actual, el sitio se publicara en:
 
 ```text
-https://GianlucaZinni.github.io/leak-prevention-claude-code-docs/
+https://GianlucaZinni.github.io/own-claude-code-docs/
 ```
 
 ## Gobernanza
