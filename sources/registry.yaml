@@ -1,0 +1,11 @@
+sources: []
+
+# Schema for each entry:
+# - id: unique kebab-case identifier
+#   title: human-readable source title
+#   type: official-doc | article | image | diagram | repo-file | note
+#   url: optional remote source URL
+#   local_path: optional local path relative to repo root
+#   status: queued | reviewing | curated | archived
+#   last_checked: YYYY-MM-DD
+#   notes: short summary, usage constraints, and curation remarks

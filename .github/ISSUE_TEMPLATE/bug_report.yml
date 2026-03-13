@@ -1,0 +1,32 @@
+name: Bug report
+description: Reporta un problema tecnico del sitio, build o automatizacion.
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Explica el problema de forma concreta.
+      placeholder: El build falla al renderizar un diagrama Mermaid en docs/workflows.md
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Incluye comandos, rutas o contexto minimo.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto adicional
+      description: Logs, screenshots o links relevantes.

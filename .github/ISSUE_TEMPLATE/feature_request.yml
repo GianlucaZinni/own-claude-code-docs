@@ -1,0 +1,25 @@
+name: Feature request
+description: Propone una mejora de estructura, automatizacion o contenido.
+title: '[Feature]: '
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Necesidad
+      description: Que problema resuelve o que oportunidad abre.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Explica el cambio esperado.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Fuentes o referencias
+      description: Links o material base si aplica.
