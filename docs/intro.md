@@ -2,30 +2,46 @@
 slug: /
 sidebar_position: 1
 title: Introduccion
-description: Punto de entrada de la documentacion base sobre Claude Code.
+description: Portada y mapa del sitio para la documentacion curada de Claude Code.
+source_ids:
+  - anthropic-claude-code-docs-site
+  - mcp-official-docs-site
 ---
 
-Este proyecto organiza conocimiento sobre Claude Code en una base unica, navegable y mantenible para desarrolladores.
+Este sitio organiza conocimiento oficial y curado sobre Claude Code en una unica fuente de verdad para equipos de desarrollo.
 
-La version actual no busca cubrir el contenido final todavia. Deja lista la plataforma, el pipeline y las convenciones para empezar a curar documentacion oficial, ejemplos, imagenes, diagramas y notas internas sin perder trazabilidad.
+## Que es / para que sirve
 
-## Objetivo de esta base
+La documentacion esta pensada para explicar Claude Code como sistema de trabajo: como se instala, como opera, como se controla el riesgo, como se extiende y como se integra en un flujo de desarrollo real.
 
-- Explicar que es Claude Code y para que sirve.
-- Describir herramientas, capacidades y workflows de uso.
-- Registrar las fuentes originales que sustentan cada pieza de contenido.
-- Publicar una documentacion propia y ordenada con una unica fuente de verdad.
+## Cuando usarlo
 
-## Estado actual
+- Cuando necesitas entender Claude Code mas alla de una guia rapida.
+- Cuando tu equipo quiere una referencia unica y trazable.
+- Cuando necesitas convertir documentacion dispersa en conocimiento operativo.
 
-- Sitio Docusaurus listo para GitHub Pages.
-- Pipeline de CI y deploy con GitHub Actions.
-- Estructura inicial de secciones y sidebar autogenerado.
-- Registro de fuentes en `sources/registry.yaml`.
+## Riesgos o limites
 
-## Proximo uso esperado
+- La primera iteracion prioriza estructura y trazabilidad sobre exhaustividad total.
+- MCP aparece como capa aplicada a Claude Code, no como un cuerpo documental paralelo.
 
-1. Registrar fuentes oficiales y materiales derivados.
-2. Curar contenido por seccion.
-3. Incorporar assets publicables en `static/`.
-4. Expandir la arquitectura de informacion segun crezca el proyecto.
+## Mapa del sitio
+
+1. Introduccion y principios
+2. Setup y onboarding
+3. Fundamentals operativos
+4. Workflows
+5. Configuracion y operacion en equipo
+6. Extensibilidad
+7. Integraciones y CI/CD
+8. Referencias
+
+## Fuentes utilizadas
+
+- `anthropic-claude-code-docs-site`
+- `mcp-official-docs-site`
+
+## Siguiente lectura
+
+- [Que es Claude Code](/introduccion-y-principios/que-es-claude-code)
+- [Mapa de fuentes](/referencias/mapa-de-fuentes)

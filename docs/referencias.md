@@ -1,27 +1,38 @@
 ---
+slug: /referencias
 sidebar_position: 5
 title: Referencias
-description: Punto de acceso a las fuentes y criterios de trazabilidad.
+description: Area de soporte para glosario, trazabilidad y jerarquia de fuentes.
+source_ids:
+  - anthropic-claude-code-docs-site
+  - anthropic-platform-docs-site
+  - mcp-official-docs-site
+  - mcp-specification-site
 ---
 
-La trazabilidad de fuentes es parte del contrato del proyecto.
+## Que es / para que sirve
 
-## Regla base
+Referencias concentra el lenguaje comun del sitio y el criterio de trazabilidad que sostiene cada pagina publicada.
 
-Antes de incorporar contenido derivado a la documentacion publicada:
+## Cuando usarlo
 
-1. Registrar la fuente en `sources/registry.yaml`.
-2. Anotar restricciones de uso o republicacion.
-3. Curar y resumir el contenido en `docs/`.
-4. Publicar solo assets permitidos en `static/`.
+- Cuando necesitas verificar de donde sale una afirmacion.
+- Cuando quieres revisar terminos antes de entrar en detalle tecnico.
+- Cuando necesitas entender la prioridad entre fuentes oficiales y material de apoyo.
 
-## Donde vive cada cosa
+## Riesgos o limites
 
-- `sources/registry.yaml`: indice maestro de fuentes.
-- `sources/README.md`: reglas de curacion y almacenamiento.
-- `docs/`: contenido final publicado.
-- `static/`: imagenes y assets aptos para publicacion.
+- Referencias no reemplaza el contenido principal; lo sostiene.
+- El backstage editorial vive en `sources/`, no en esta seccion publica.
 
-## Estado
+## Fuentes utilizadas
 
-Contenido placeholder. La carga de fuentes oficiales se hara en una siguiente fase.
+- `anthropic-claude-code-docs-site`
+- `anthropic-platform-docs-site`
+- `mcp-official-docs-site`
+- `mcp-specification-site`
+
+## Siguiente lectura
+
+- [Glosario](/referencias/glosario)
+- [Mapa de fuentes](/referencias/mapa-de-fuentes)

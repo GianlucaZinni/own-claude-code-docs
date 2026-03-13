@@ -1,28 +1,41 @@
 ---
+slug: /workflows
 sidebar_position: 4
 title: Workflows
-description: Guia base para documentar flujos de trabajo con Claude Code.
+description: Landing page de recipes y flujos de trabajo operativos con Claude Code.
+source_ids:
+  - anthropic-claude-code-docs-site
 ---
 
-Esta seccion ordenara workflows de uso de Claude Code para desarrollo, investigacion, automatizacion y mantenimiento.
+## Que es / para que sirve
 
-## Flujo editorial inicial
+Esta seccion traduce las capacidades de Claude Code en procedimientos repetibles: explorar, depurar, refactorizar, verificar y trabajar en paralelo.
+
+## Cuando usarlo
+
+- Cuando necesitas pasar de entender una feature a operarla con criterio.
+- Cuando quieres documentar recipes reutilizables para el equipo.
+
+## Riesgos o limites
+
+- Un workflow sin verificacion clara se vuelve una receta incompleta.
+- Un workflow no reemplaza el criterio humano ni la revision tecnica.
+
+## Flujo de trabajo base
 
 ```mermaid
 flowchart LR
-    A[Fuente oficial] --> B[Registro en sources/registry.yaml]
-    B --> C[Curacion en docs]
-    C --> D[Revision en pull request]
-    D --> E[Deploy en GitHub Pages]
+    A[Entender el objetivo] --> B[Elegir workflow]
+    B --> C[Ejecutar pasos]
+    C --> D[Verificar resultados]
+    D --> E[Registrar hallazgos]
 ```
 
-## Temas a cubrir
+## Fuentes utilizadas
 
-- Bootstrap de proyectos y scaffolding.
-- Analisis de codigo y revisiones tecnicas.
-- Generacion de documentacion derivada.
-- Mantenimiento de pipelines y operacion del repo.
+- `anthropic-claude-code-docs-site`
 
-## Estado
+## Siguiente lectura
 
-Contenido placeholder. El diagrama Mermaid queda como prueba base del soporte visual del sitio.
+- [Explorar un codebase](/workflows/explorar-un-codebase)
+- [Refactor seguro con Plan mode](/workflows/refactor-seguro-con-plan-mode)

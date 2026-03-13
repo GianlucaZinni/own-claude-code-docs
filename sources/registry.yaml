@@ -1,11 +1,176 @@
-sources: []
+sources:
+  - id: claude-code-subagents
+    title: 0xfurai/claude-code-subagents
+    type: github-repo
+    url: https://github.com/0xfurai/claude-code-subagents
+    status: queued
+    last_checked: 2026-03-13
+    notes: Repositorio para revisar patrones de subagents, organizacion y prompts reutilizables.
+
+  - id: anthropic-claude-code
+    title: anthropics/claude-code
+    type: github-repo
+    url: https://github.com/anthropics/claude-code
+    status: queued
+    last_checked: 2026-03-13
+    notes: Repositorio oficial de Claude Code para documentar estructura, ejemplos y referencias primarias.
+
+  - id: awesome-claude-code
+    title: hesreallyhim/awesome-claude-code
+    type: github-repo
+    url: https://github.com/hesreallyhim/awesome-claude-code
+    status: queued
+    last_checked: 2026-03-13
+    notes: Curacion comunitaria de recursos para detectar fuentes y herramientas relevantes.
+
+  - id: obra-superpowers
+    title: obra/superpowers
+    type: github-repo
+    url: https://github.com/obra/superpowers
+    status: queued
+    last_checked: 2026-03-13
+    notes: Repositorio para investigar automatizaciones, comandos y patrones avanzados de uso.
+
+  - id: anthropic-skills
+    title: anthropics/skills
+    type: github-repo
+    url: https://github.com/anthropics/skills
+    status: queued
+    last_checked: 2026-03-13
+    notes: Repositorio oficial de skills para estudiar estructura, convenciones y casos de uso.
+
+  - id: anthropic-prompt-eng-interactive-tutorial
+    title: anthropics/prompt-eng-interactive-tutorial
+    type: github-repo
+    url: https://github.com/anthropics/prompt-eng-interactive-tutorial
+    status: queued
+    last_checked: 2026-03-13
+    notes: Tutorial de prompt engineering potencialmente util para la seccion metodologica y de buenas practicas.
+
+  - id: anthropic-claude-cookbooks
+    title: anthropics/claude-cookbooks
+    type: github-repo
+    url: https://github.com/anthropics/claude-cookbooks
+    status: queued
+    last_checked: 2026-03-13
+    notes: Coleccion oficial de recetas y ejemplos aplicables a guias y workflows.
+
+  - id: anthropic-courses
+    title: anthropics/courses
+    type: github-repo
+    url: https://github.com/anthropics/courses
+    status: queued
+    last_checked: 2026-03-13
+    notes: Material formativo oficial para extraer rutas de aprendizaje y referencias de estudio.
+
+  - id: anthropic-claude-quickstarts
+    title: anthropics/claude-quickstarts
+    type: github-repo
+    url: https://github.com/anthropics/claude-quickstarts
+    status: queued
+    last_checked: 2026-03-13
+    notes: Quickstarts oficiales utiles para documentar arranques rapidos y ejemplos de implementacion.
+
+  - id: anthropic-claude-code-docs-site
+    title: Claude Code Docs
+    type: official-doc
+    url: https://code.claude.com/docs
+    status: queued
+    last_checked: 2026-03-13
+    notes: Fuente primaria para producto, flujos, configuracion y extensibilidad de Claude Code.
+
+  - id: anthropic-platform-docs-site
+    title: Anthropic Platform Docs
+    type: official-doc
+    url: https://docs.anthropic.com
+    status: queued
+    last_checked: 2026-03-13
+    notes: Fuente primaria para conceptos generales de Anthropic, API y material de soporte.
+
+  - id: mcp-official-docs-site
+    title: Model Context Protocol Docs
+    type: official-doc
+    url: https://modelcontextprotocol.io/docs
+    status: queued
+    last_checked: 2026-03-13
+    notes: Fuente primaria para guias, ejemplos y documentacion operativa de MCP.
+
+  - id: mcp-specification-site
+    title: Model Context Protocol Specification
+    type: official-doc
+    url: https://modelcontextprotocol.io/specification
+    status: queued
+    last_checked: 2026-03-13
+    notes: Fuente primaria para especificacion, lifecycle, transports y primitives de MCP.
+
+  - id: best-practices-for-claude-code-subagents
+    title: Best practices for Claude Code subagents
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: equipping-agents-for-the-real-world-with-agent-skills
+    title: Equipping agents for the real world with agent skills
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: getting-started-with-local-mcp-servers-on-claude-desktop
+    title: Getting started with local MCP servers on Claude Desktop
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: how-i-use-every-claude-code-feature
+    title: How I use every Claude Code feature
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: mcp-in-claude-code-the-practical-setup-guide-2026
+    title: "MCP in Claude Code: the practical setup guide (2026)"
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: the-complete-guide-to-building-skill-for-claude-1
+    title: The complete guide to building skill for Claude
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: the-ultimate-claude-code-guide
+    title: The ultimate Claude Code guide
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: understanding-claude-codes-full-stack
+    title: Understanding Claude Code's full stack
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: PDF local importado; URL original pendiente de normalizar.
+
+  - id: claude-code-hooks-mastery-guide
+    title: Claude Code Hooks Mastery
+    type: article
+    status: queued
+    last_checked: 2026-03-13
+    notes: Guia markdown importada; URL original pendiente de normalizar.
 
 # Schema for each entry:
 # - id: unique kebab-case identifier
 #   title: human-readable source title
-#   type: official-doc | article | image | diagram | repo-file | note
+#   type: official-doc | article | image | diagram | repo-file | github-repo | note
 #   url: optional remote source URL
-#   local_path: optional local path relative to repo root
 #   status: queued | reviewing | curated | archived
 #   last_checked: YYYY-MM-DD
 #   notes: short summary, usage constraints, and curation remarks

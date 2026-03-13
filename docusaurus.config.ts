@@ -11,7 +11,7 @@ const githubOwner =
 const githubRepoUrl = `https://github.com/${githubOwner}/${repoName}`;
 
 const config: Config = {
-  title: 'Claude Code Docs',
+  title: 'Own Claude Code Docs',
   tagline: 'Documentacion interactiva y fuente de verdad sobre Claude Code',
   favicon: 'img/favicon.ico',
   future: {
@@ -57,7 +57,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Claude Code Docs',
+      title: 'Own Claude Code Docs',
       hideOnScroll: true,
       items: [
         {
